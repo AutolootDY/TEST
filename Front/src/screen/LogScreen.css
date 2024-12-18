@@ -1,0 +1,99 @@
+.Logbox {
+
+  width: 90%;
+  height: 100vh;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.Logtext {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus {
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.wrap {
+  width: 30%;
+  margin-left: 20%;
+  margin-top: 5%;
+  transform: translate(-50%, -50%);
+}
+
+.spacer {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.btnlog {
+  background-color: rgb(255, 255, 255);
+  color: green;
+  border-color: green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.btnlog:hover {
+  background-color: green;
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.btnlog:disabled {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btnlogs:disabled {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

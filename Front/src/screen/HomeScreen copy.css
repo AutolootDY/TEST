@@ -1,0 +1,102 @@
+body {
+  /* background: url('https://img.freepik.com/premium-photo/hacker-silhouette-dark-green-binary-background-hacker-silhouette-binary-codes-toned-picture-silhouette-hacker-hoodie-hacking-malware-concept_256259-2363.jpg?w=2000'); */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: black
+  	;
+}
+
+.body:after {
+  /*position: absolute;*/
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*background: rgba(0,0,0,0.7);*/
+}
+
+.contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  padding: 60px 32px;
+  width: 80%;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.841);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contentsHome {
+  /* align-items: center;  */
+  flex-direction: column; 
+  /* margin: 50px 50px 50px 190px; */
+  
+  /* margin-top: 100px;  */
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 15px;
+  text-align: center;
+  padding: 60px 32px;
+  width: 50%;
+  /* height: 500px; */
+  /* transform: translate(-50%, -50%); */
+  background-color: rgba(255, 255, 255, 0.841);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contents header {
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Homebutton {
+  background-color: rgba(243, 58, 58, 0.968);
+  border-color: rgba(243, 58, 58, 0.968);
+  border-radius: 7px;
+  color: white;
+
+}
+
+.HometextTime {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  /* color: white; */
+}
+.HomeTime {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  /* color: white; */
+}
+
+.Homebox {
+  width: 500px;
+  height: 600px;
+  /* align-items: center; */
+  background-color: rgba(255, 255, 255, 0.841); 
+  color: white;
+}
+
+.btnError{
+  width: 15%;
+  flex-direction: column;
+}
+.cen{
+  text-align: center;
+  flex-direction: column;
+
+}
+.space{
+  margin-bottom: 10px;
+  
+}

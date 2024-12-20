@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="2024-12-20 10-12-56.mkv"/>
+  <img src="ดีไซน์ที่ยังไม่ได้ตั้งชื่อ.gif"/>
 </p>
 
 # Smart Money Concepts (smc) BETA

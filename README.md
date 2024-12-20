@@ -59,10 +59,10 @@ POC คำนวณจาก Volume Profile ของแท่งเทียน
 
 
 ```python
-//@version=5
+//@version=6
 strategy("TFEX POC + EMA200 [Long Only]", overlay=true)
 ```
-- @version=5: ระบุว่าใช้ Pine Script เวอร์ชัน 5
+- @version=5: ระบุว่าใช้ Pine Script เวอร์ชัน 6
 - strategy(): ตั้งชื่อกลยุทธ์ว่า "TFEX POC + EMA200 [Long Only]" และกำหนดให้แสดงผลบนกราฟ (overlay=true)
 
 ### 1. กำหนดพารามิเตอร์ (Parameters)
